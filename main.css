@@ -1,22 +1,24 @@
 /* Select by tagname */
 h1 {
-  color: red;
+  color: blue;
+  font-size: 48px;
 }
 
 /* Select by classname */
 .header-alt {
-  border-bottom: 2px solid red;
+  border-bottom: 2px dotted silver;
 }
 
 /* Select a single element by its ID */
 #header-primary {
   text-transform: uppercase;
+  color: silver;
 }
 
 /* Select all H1s AND all .header-alts */
 h1,
 .header-alt {
-  border-top: 2px solid blue;
+  border-top: 2px;
 }
 
 /* Use descendent selectors */
